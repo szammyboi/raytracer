@@ -1,5 +1,5 @@
 # Building
-The project uses premake5 as the build system manager. I have already generated a Makefile that can be used to build the project on Windows. Before building, you need to set the compiler by using "set CC=gcc" in your command line (with gcc being whatever compiler you use). If you use GCC, then you can just run the included run.bat file which will build the project and then run the executable. The project is built to build\bin\release. 
+The project uses premake5 as the build system manager. If you use GCC, then you can just run the included run.bat file which will build the project and then run the executable. The project is built to build\bin\release. 
 
 # Dependencies
 I used Glad instead of Glew in this project but all of the dependencies are built into the project. It should compile GLFW, Glad, and ImGui before finally building and linking the application. 
